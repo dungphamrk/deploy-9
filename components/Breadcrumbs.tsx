@@ -6,6 +6,7 @@ import React from "react";
 export default function Breadcrumbs() {
   const pathName = usePathname();
   const pathParts = pathName.split("/").filter((part) => part);
+console.log(1);
 
   return (
     <nav aria-label="breadcrumb">
